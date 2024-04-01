@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 2rem;
+    background-color: black;
+    height: 100dvh;
+    font-family: "Signika", sans-serif;
+}
+
+body {
+    background: rgb(152, 124, 219);
+    background: radial-gradient(circle, rgba(152, 124, 219, 1) 0%, rgba(159, 231, 212, 1) 52%, rgba(255, 255, 255, 1) 100%);
+    height: 100%;
+    border-radius: 12px;
+}
+
+header {
+    position: relative;
+}
+
+main {
+    margin-left: 100px;
+    position: relative;
+    height: calc(100% - 81px);
+}
+
+aside {
+    position: absolute;
+    top: 5rem;
+    right: 200px;
+    width: 440px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.Login {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 15px;
+
+}
+
+.Login li {
+    text-align: right;
+    display: inline-block;
+    padding: 2px;
+}
+
+
+.Login li:last-child {
+    border: solid black;
+    background-color: black;
+    border-radius: 20px;
+    padding: .5rem
+}
+
+.Login li:last-child a {
+    color: white;
+}
+
+.Login li:last-child:hover {
+    background-color: white;
+    border: solid white;
+}
+
+.Login li:last-child:hover a {
+    color: black;
+}
+
+.subtitle {
+    padding-top: 70px;
+}
+
+.title {
+    text-align: center;
+    width: 300px;
+    word-wrap: break-word;
+    padding: 0px;
+}
+
+.content {
+    width: 340px;
+    word-wrap: break-word;
+    padding: 0px;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btnl {
+    display: inline-block;
+    border: solid black;
+    background-color: black;
+    border-radius: 20px;
+    padding: .5rem
+}
+
+.btnl a {
+    color: white;
+}
+
+.btnl:hover {
+    background-color: white;
+    border: solid white;
+}
+
+.btnl:hover a {
+    color: black;
+}
+
+.btnr {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+.picture-container {
+    margin-top: 100px;
+    display: inline-block;
+    padding-right: 15px;
+
+}
+
+.picture-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-footer {
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.card {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.name {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 32px;
+}
+
+.post {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 32px;
+
+}
+
+.card img {
+    width: 30px;
+    max-height: 30px;
+    position: absolute;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    padding-right: 1.5rem;
+}
+
+.toaster{
+    position: fixed;
+    bottom: 24px;
+    right: 36px;
+    background-color: black;
+    border: solid black;
+    color: white;
+    border-radius: 8px;
+    width: 25%;
+    height: 5rem;
+}
+
+p.corner-time {
+    justify-content: end;display: flex;margin-top: 0.5rem;
+}
+
+p.corner-title {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+p.corner-subtitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.toaster img {
+    width: 4REM;
+    height: 4REM;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 1rem;
+    background: red;
+    margin: 0.3rem;
+    margin-right: 1rem;
+}
